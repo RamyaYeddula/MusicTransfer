@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Ramya.mehrab_sample_code" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="8"/>
+
+    <!--<permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE"-->
+        <!--android:protectionLevel="signature" />-->
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:allowBackup="true">
+
+        <activity
+            android:name="com.example.Ramya.MusicTransfer.MainActivity"
+            android:label="@string/app_name">
+
+
+    <intent-filter>
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER"/>
+</intent-filter>
+
+</activity>
+
+    <activity android:name="com.example.Ramya.MusicTransfer.Sender" android:label="@string/app_name"> </activity>
+    <activity android:name="com.example.Ramya.MusicTransfer.Receiver" android:label="@string/app_name"> </activity>
+    <activity android:name="com.example.Ramya.MusicTransfer.Relay" android:label="@string/title_activity_relay"> </activity>
+
+</application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mehrab_Sample_Code</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_relay">RelayActivity</string>
+    <string name="title_activity_browse_folder">BrowseFolder</string>
+</resources>

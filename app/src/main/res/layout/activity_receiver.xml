@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/layout1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/connection"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Role: receiver"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textViewFileReady"
+        android:text="File Ready To Play"
+        android:textSize="20dp"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/incoming"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""/>
+
+    <ListView
+        android:layout_height="163dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/listViewFiles"
+        android:layout_weight="0.75">
+    </ListView>
+
+    TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textViewFileLength"
+        android:text="TextView"/>
+<!--
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/tool_bar"/>-->
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Play"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fab"
+        android:layout_alignParentTop="true"/>
+
+    <!-- <Button
+         android:layout_height="100dp"
+         android:layout_width="85dp"
+         android:id="@+id/imageButton1"
+         android:text="PLAY"
+         android:onClick="playAudio"
+         android:layout_centerHorizontal="true"
+         android:layout_alignParentTop="true"/>
+ -->
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView
+    android:gravity="center_vertical|center_horizontal"
+    android:textSize="28sp"
+    android:background="@android:drawable/toast_frame"
+    android:text="No files or directories"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
